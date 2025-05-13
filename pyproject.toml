@@ -1,0 +1,14 @@
+[project]
+name = "xtcocoapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+# https://docs.astral.sh/uv/concepts/projects/config/#build-systems
+# https://docs.astral.sh/uv/concepts/projects/config/#build-isolation
+requires = ["setuptools", "wheel", "numpy", "cython"]
+build-backend = "setuptools.build_meta"
+
